@@ -67,7 +67,6 @@ class Solution:
         left=right=max_len=0
         n=len(s)
         while right<n:
-              
               if s[right] in hash_map and hash_map[s[right]]>=left:
                   left=hash_map[s[right]]+1
               hash_map[s[right]]=right
