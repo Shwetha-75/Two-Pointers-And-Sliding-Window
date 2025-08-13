@@ -15,6 +15,7 @@ Example 2:
 Input: s = "aaacb"
 Output: 3
 Explanation: The substrings containing at least one occurrence of the characters a, b and c are "aaacb", "aacb" and "acb". 
+
 Example 3:
 
 Input: s = "abc"
